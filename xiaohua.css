@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing:border-box;
+}
+}
+#left {
+  position: relative;
+  width: 30%;
+  height: 90%;
+  background-color: green;
+  border-radius: 5;
+  float:left;
+}
+#right {
+  position: relative;
+  width: 65%;
+  height: 90%;
+  background-color: blue;
+  border-radius: 5;
+  float: right;
+}
+#mainpic {
+  width: 30px;
+  height: 30px;
+}
