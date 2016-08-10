@@ -2,6 +2,12 @@
   box-sizing: border-box;
   -webkit-box-sizing:border-box;
 }
+#header {
+  position: relative;
+  top: -10px;
+  background-color: green;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 }
 #left {
   position: relative;
@@ -22,4 +28,21 @@
 #mainpic {
   width: 30px;
   height: 30px;
+}
+table {
+  border: red 2px solid;
+  float: right;
+  margin-right: 10px;
+}
+td {
+  height: 75px;
+  width: 75ps;
+}
+td img {
+  height: 75px;
+  width: 75ps;
+}
+th {
+  font-size: 2em;
+  
 }
