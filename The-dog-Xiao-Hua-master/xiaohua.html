@@ -1,0 +1,99 @@
+<!--整体设计参照https://www.codecademy.com/courses/
+web-beginner-en-TlhFi/0/1?curriculum_id=50579fb998b470000202dc8b
+css overview 第一项-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Xiao Hua</title>
+  <link rel="stylesheet" type="text/css" href="xiaohua.css">
+</head>
+<body>
+  <div id="header">
+    <h1>小花</h1>
+  </div>
+  <div id="left">
+    <div class="leftblock">
+      <h2>照片</h2>
+      <img src="正面照.jpg" alt="小花"/>
+        <h2>爱好</h2>
+        <ol>
+          <li>吃</li>
+          <li>玩儿</li>
+        </ol>
+        <h2>优点</h2>
+        <p>它是一条尽职的狗狗</p>
+
+      <div class="emoji">
+        <h2>缺点</h2>
+        <p>咬人
+          <img src = "http://img1.imgtn.bdimg.com/it/u=3187493818,2147750059&fm=21&gp=0.jpg"/>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="right">
+    <!--表格建立参照https://www.codecademy.com/en/courses/
+    web-beginner-en-zrZ6c/0/6?curriculum_id=50579fb998b470000202dc8b#
+    Clickable photos 6.Link'm up!-->
+
+    <table>
+      <thead>
+        <th colspan="3">小花的照片墙</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="小花.jpg"/></td>
+          <td><img src="a.jpg"/></td>
+          <td><img src="g.jpg"/></td>
+        </tr>
+        <tr>
+          <td><img src="b.jpg"/></td>
+          <td><img src="c.jpg"/></td>
+          <td><img src="h.jpg"/></td>
+        </tr>
+        <tr>
+          <td><img src="d.jpg"/></td>
+          <td><img src="e.jpg"/></td>
+          <td><img src="f.jpg"/></td>
+        </tr>
+      </tbody>
+    </table>
+    <table class="xhvideo">
+      <thead>
+        <th colspan="3">小花的视频</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <video width="320" height="240" controls>
+              <source src="1.mp4"
+              type="video/mp4">
+            </video>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <video width="320" height="240" controls>
+              <source src="2.mp4"
+              type="video/mp4">
+            </video>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="friends">
+      <h3>小花的朋友</h3>
+      <img src="liangzhizhu.jpg"/>
+      <div>
+        <p>它们睡得是不是很有爱啊
+          <img src="http://img0.imgtn.bdimg.com/it/u=3447506742,234351858&fm=21&gp=0.jpg"/>
+        </p>
+      </div>
+    </div>
+    <div id="button">
+				<p>Send me an <span class="bold">e-mail</span>!</p>
+		</div>
+  </div>
+</body>
+</html>
