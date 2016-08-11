@@ -1,67 +1,100 @@
 <!--整体设计参照https://www.codecademy.com/courses/
-web-beginner-en-TlhFi/0/1?curriculum_id=50579fb998b470000202dc8b  
+web-beginner-en-TlhFi/0/1?curriculum_id=50579fb998b470000202dc8b
 css overview 第一项-->
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
-  <title>About me</title>
+  <title>Xiao Hua</title>
   <link rel="stylesheet" type="text/css" href="xiaohua.css">
 </head>
 <body>
   <div id="header">
-    <h2>小花的介绍</h2>
+    <h1>小花</h1>
   </div>
   <div id="left">
-    <div>
-      <h1>小花</h1>
-      <div id="mainpic">
-        <img src="正面照.jpg" alt="小花"/>
+    <div class="leftblock">
+      <h2>照片</h2>
+      <img src="https://thumbnail0.baidupcs.com/thumbnail/080bc8f580d19ada80f07f2459ba6cd1?fid=2603947945-250528-1020993093645532&time=1470837600&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-FZSIrjYKMadb%2FiZOdAqsfk99Rlc%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5170177957209418919&dp-callid=0&size=c710_u400&quality=100"
+      alt="小花"/>
+        <h2>爱好</h2>
+        <ol>
+          <li>吃</li>
+          <li>玩儿</li>
+        </ol>
+        <h2>优点</h2>
+        <p>它是一条尽职的狗狗</p>
+
+      <div class="emoji">
+        <h2>缺点</h2>
+        <p>咬人
+          <img src = "http://img1.imgtn.bdimg.com/it/u=3187493818,2147750059&fm=21&gp=0.jpg"/>
+        </p>
       </div>
-    </div>
-    
-      <h2>爱好</h2>
-      <ol>
-        <li>吃</li>
-        <li>玩儿</li>
-      </ol>
-    
-    
-      <h2>优点</h2>
-      <p>它是一条尽职的狗狗</p>
-    
-    <div>
-      <h2>缺点</h2>
-      <p>咬人</p>
-      <img src = "http://img1.imgtn.bdimg.com/it/u=3187493818,2147750059&fm=21&gp=0.jpg"/>
     </div>
   </div>
   <div id="right">
     <!--表格建立参照https://www.codecademy.com/en/courses/
     web-beginner-en-zrZ6c/0/6?curriculum_id=50579fb998b470000202dc8b#
     Clickable photos 6.Link'm up!-->
+
     <table>
       <thead>
-        <th>我的照片</th>
+        <th colspan="3">小花的照片墙</th>
       </thead>
       <tbody>
         <tr>
-          <td><img src="小花.jpg"/></td>
-          <td><img src="a.jpg"/></td>
+          <td><img src="https://thumbnail0.baidupcs.com/thumbnail/3c5e88247f3e14357da9bfaf6956f906?fid=2603947945-250528-708360750066737&time=1470837600&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-UN5WgYBZXEu6hTduCNASu4TzFq4%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5170526119873130594&dp-callid=0&size=c710_u400&quality=100"/></td>
+          <td><img src="https://thumbnail0.baidupcs.com/thumbnail/20c288341dbd079c3268df5c6c960a3e?fid=2603947945-250528-858217375222940&time=1470837600&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-yJTZbzLN5KQZrFolkuISNQzbQoQ%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5170568663325462831&dp-callid=0&size=c710_u400&quality=100"/></td>
+          <td><img src="https://thumbnail0.baidupcs.com/thumbnail/dfd5617d57867a318c1cd0a1a882802b?fid=2603947945-250528-1004260433506189&time=1470837600&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-IOz4MZkmYsfWSVRM%2BhFkODgqmd8%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5170590944276758069&dp-callid=0&size=c710_u400&quality=100"/></td>
         </tr>
         <tr>
-          <td><img src="b.jpg"/></td>
-          <td><img src="c.jpg"/></td>
+          <td><img src="https://thumbnail0.baidupcs.com/thumbnail/3b09562672922661d45ca29992e72bd0?fid=2603947945-250528-304438266414459&time=1470837600&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-YHDotilpofSFjG%2F%2Bq9mppo12FOA%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5170599880348808712&dp-callid=0&size=c710_u400&quality=100"/></td>
+          <td><img src="https://thumbnail0.baidupcs.com/thumbnail/a75c94ffa5fe8ff17bcbdad00dabe180?fid=2603947945-250528-266791268086164&time=1470837600&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-a91nvVogTfd%2BI8g8KMubPAoPZzE%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5170606332422543693&dp-callid=0&size=c710_u400&quality=100"/></td>
+          <td><img src="https://thumbnail0.baidupcs.com/thumbnail/5fb27fa027be865e6bfa523be37442c7?fid=2603947945-250528-388345544327613&time=1470837600&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-P0ZMHPPUlqXL2gtFfvRzUTh7d2A%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5170614747066726204&dp-callid=0&size=c710_u400&quality=100"/></td>
         </tr>
         <tr>
-          <td><img src="d.jpg"/></td>
-          <td><img src="e.jpg"/></td>
-          <td><img src="f.jpg"/></td>
+          <td><img src="https://thumbnail0.baidupcs.com/thumbnail/44e976b79938be0fbaf4123123efe258?fid=2603947945-250528-441635057658088&time=1470837600&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-VCPhxJlEQSKhEDZnRp0LTrhH61E%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5170625126064431772&dp-callid=0&size=c710_u400&quality=100"/></td>
+          <td><img src="https://thumbnail0.baidupcs.com/thumbnail/736ca9c80207face95cfb8235311e7b1?fid=2603947945-250528-459728925029339&time=1470837600&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-5n%2FZSjaXjoRivH8ipbbCNzdPEAI%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5170633010894697654&dp-callid=0&size=c710_u400&quality=100"/></td>
+          <td><img src="https://thumbnail0.baidupcs.com/thumbnail/719030000ec5344d2ddb774a2194643c?fid=2603947945-250528-849069003236986&time=1470837600&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-I33gN%2BAp0M%2BMp6KQytSPYBPfrSg%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5170639654056044721&dp-callid=0&size=c710_u400&quality=100"/></td>
         </tr>
       </tbody>
     </table>
-
-
-
+    <table class="xhvideo">
+      <thead>
+        <th colspan="1">小花的视频</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <video width="320" height="240" controls>
+              <source src="1.mp4"
+              type="video/mp4">
+            </video>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <video width="320" height="240" controls>
+              <source src="2.mp4"
+              type="video/mp4">
+            </video>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="friends">
+      <h3>小花的朋友</h3>
+      <img src="https://thumbnail0.baidupcs.com/thumbnail/46e1c3fa29a4e9c04b72f487f4bddc3a?fid=2603947945-250528-1097000240158528&time=1470837600&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-O03l9bd20y3SD3HiX1LaiY%2FaSZ8%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5170760055987066454&dp-callid=0&size=c710_u400&quality=100"/>
+      <div>
+        <p>它们睡得是不是很有爱啊
+          <img src="http://img0.imgtn.bdimg.com/it/u=3447506742,234351858&fm=21&gp=0.jpg"/>
+        </p>
+      </div>
+    </div>
+    <div id="button">
+				<p>Send me an <span class="bold">e-mail</span>!</p>
+		</div>
   </div>
 </body>
 </html>

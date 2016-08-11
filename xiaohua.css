@@ -2,24 +2,111 @@
   box-sizing: border-box;
   -webkit-box-sizing:border-box;
 }
+body {
+	background-color: #b7d1c4
+}
+#header {
+  position: relative;
+  top: -10px;
+  text-align: center;
+  background-color: green;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 }
 #left {
   position: relative;
-  width: 30%;
-  height: 90%;
+  width: 20%;
+  height: 95%;
   background-color: green;
   border-radius: 5;
   float:left;
 }
+.leftblock {
+  margin-left: 25px;
+}
 #right {
   position: relative;
-  width: 65%;
-  height: 90%;
-  background-color: blue;
+
+  width: 75%;
+  height: 95%;
+  background-color: #b7d1c4;
   border-radius: 5;
   float: right;
 }
-#mainpic {
-  width: 30px;
+.leftblock img {
+  width: 170px;
+  height: 200px;
+}
+h1 {
+  padding-top: 20px;
+	padding-bottom: 20px;
+  font-weight: bold;
+}
+table {
+  border: red 2px solid;
+  float: left;;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.xhvideo {
+  border: black 1px solid;
+  float: left;;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+td {
+  height: 100px;
+  width: 100px;
+}
+td img {
+  height: 95px;
+  width: 95px;
+}
+th {
+  font-size: 2em;
+
+}
+.emoji {
+  position: relative;
+
+}
+.emoji img {
   height: 30px;
+  width: 30px;
+
+}
+p img {
+  height: 30px;
+  width: 30px;
+}
+.friends {
+  float: left;
+  position: relative;;
+  margin-left: 25px;
+}
+.friends img {
+  height: 200px;
+  width: 170px;
+  -webkit-transform:rotate(-180deg);
+}
+.friends p img {
+  height: 30px;
+  width: 30px;
+}
+#button {
+  border: 2px solid black;
+  float:right;
+  position: relative;
+  border-radius: 20px;
+  background-color: red;
+  height: 30px;
+  width: 150px;
+  margin-top: 150px;
+  margin-right: 50px;
+  bottom: -20px;
+}
+#button p {
+  text-align: center;
+  position: relative;
+  bottom: 10px;
 }
